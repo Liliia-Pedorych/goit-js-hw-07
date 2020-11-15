@@ -6,9 +6,7 @@ const ingredients = [
   'Зелень',
   'Приправы',
 ];
-// Напиши скрипт, который для каждого элемента массива ingredients создаст отдельный li,
 
-// после чего вставит все li за одну операцию в список ul.ingredients.Для создания DOM - узлов используй document.createElement().
 
 const ul = document.querySelector('#ingredients');
 
@@ -29,7 +27,16 @@ li6.textContent = 'Приправы';
 
 ul.append(li1, li2, li3, li4, li5, li6);
 
-console.log(ul);
+// console.log(ul);
+
+
+
+
+
+
+
+
+//=================== альтернативний варіант ===================
 
 // li1.innerHTML = 'Картошка';
 // li2.innerHTML = 'Грибы';
