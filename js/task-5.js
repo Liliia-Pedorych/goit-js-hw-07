@@ -3,7 +3,7 @@ const inputNameRef = document.querySelector('#name-input');
 
 const outputNameRef = document.querySelector('#name-output');
 
-inputNameRef.addEventListener('input', e => outputNameRef.textContent = e.target.value.trim());
+inputNameRef.addEventListener('input', e => outputNameRef.textContent.trim() = e.target.value);
 
 
 
